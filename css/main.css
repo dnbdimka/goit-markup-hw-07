@@ -716,7 +716,7 @@ body {
   margin-bottom: 10px;
 }
 
-.modal-form__field :nth-child(4) {
+.modal-form__field:nth-child(4) {
   margin-bottom: 20px;
 }
 

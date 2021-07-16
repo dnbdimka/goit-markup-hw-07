@@ -15,8 +15,9 @@
   border: none;
   cursor: pointer;
 
-  transition: background-color var(--animation-time) var(--timing-function);
-}
-.btn:hover {
-  background-color: #188ce8;
+  transition: background-color $animationTime $timingFunction;
+
+  &:hover {
+    background-color: #188ce8;
+  }
 }

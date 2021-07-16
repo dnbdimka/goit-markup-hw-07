@@ -8,11 +8,8 @@
 
   position: relative;
 }
-/* .work-item:not(:last-child) {
-  margin-right: 30px;
-} */
 
-.work__item .work__overlay {
+.work__overlay {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,9 +25,9 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.work__overlay_color_dark {
-  color: #ffffff;
+  &_color_dark {
+    color: #ffffff;
 
-  background: rgba(47, 48, 58, 0.8);
+    background: rgba(47, 48, 58, 0.8);
+  }
 }

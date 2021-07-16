@@ -20,12 +20,22 @@
 
 .social-list__link_light {
   color: #afb1b8;
-  transition: color var(--animation-time) var(--timing-function),
-    background-color var(--animation-time) var(--timing-function);
+  transition: color $animationTime $timingFunction,
+    background-color $animationTime $timingFunction;
+  &:hover,
+  &:focus {
+    background-color: $brandColor;
+    color: #fff;
+  }
 }
 
-.social-list__link_light:hover,
-.social-list__link_light:focus {
-  background-color: var(--brand-color);
+.social-list__link_dark {
   color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color $animationTime $timingFunction;
+  &:hover,
+  &:focus {
+    background-color: $brandColor;
+  }
 }

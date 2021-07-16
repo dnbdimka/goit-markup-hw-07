@@ -16,17 +16,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.hero__title {
-  margin-bottom: 30px;
+  &__title {
+    margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.hero__title_color_light {
-  color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    &_color_light {
+      color: #ffffff;
+    }
+  }
 }

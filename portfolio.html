@@ -30,16 +30,15 @@
           >
           <ul class="header__nav-list nav-list">
             <li class="nav-list__item">
-              <a
-                class="nav-list__link header-link nav-list__link_color_black"
-                href="./index.html"
+              <a class="nav-list__link header-link" href="./index.html"
                 >Студия</a
               >
             </li>
             <li class="nav-list__item">
               <a
                 class="
-                  nav-list__link nav-list__link_current
+                  nav-list__link
+                  current
                   header-link
                   nav-list__link_color_black
                 "
@@ -48,11 +47,7 @@
               >
             </li>
             <li class="nav-list__item">
-              <a
-                class="nav-list__link header-link nav-list__link_color_black"
-                href="#"
-                >Контакты</a
-              >
+              <a class="nav-list__link header-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -85,50 +80,56 @@
           <!-- filter -->
           <h1 hidden>Портфолио</h1>
           <ul class="filter-list">
-            <li class="filter-item">
-              <button class="filter-button" type="button">Все</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">Все</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button" type="button">Веб-сайты</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">
+                Веб-сайты
+              </button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button" type="button">Приложения</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">
+                Приложения
+              </button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button" type="button">Дизайн</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">Дизайн</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-button" type="button">Маркетинг</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <!-- porfolio -->
           <ul class="portfolio-list">
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-1.jpg"
                   width="370"
                   alt="Макет веб-сайта Технокряк"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
               </div>
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">Технокряк</h3>
-                <p class="portfolio-item-paragraph">Веб-сайт</p>
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">Технокряк</h3>
+                <p class="portfolio-list__paragraph">Веб-сайт</p>
               </div>
             </li>
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-2.jpg"
                   width="370"
                   alt="Дизайн постера с баскетболистами"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Voluptatibus, quo aperiam culpa provident, blanditiis aliquam
                   quasi tempora eveniet harum magni minima aliquid corporis
@@ -136,21 +137,21 @@
                 </p>
               </div>
 
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">
                   Постер New Orlean vs Golden Star
                 </h3>
-                <p class="portfolio-item-paragraph">Дизайн</p>
+                <p class="portfolio-list__paragraph">Дизайн</p>
               </div>
             </li>
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-3.jpg"
                   width="370"
                   alt="Приложение ресторана Seafood"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Voluptatibus, quo aperiam culpa provident, blanditiis aliquam
                   quasi tempora eveniet harum magni minima aliquid corporis
@@ -158,19 +159,19 @@
                 </p>
               </div>
 
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">Ресторан Seafood</h3>
-                <p class="portfolio-item-paragraph">Приложение</p>
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">Ресторан Seafood</h3>
+                <p class="portfolio-list__paragraph">Приложение</p>
               </div>
             </li>
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-4.jpg"
                   width="370"
                   alt="Фото наушников"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Voluptatibus, quo aperiam culpa provident, blanditiis aliquam
                   quasi tempora eveniet harum magni minima aliquid corporis
@@ -178,19 +179,19 @@
                 </p>
               </div>
 
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">Проект Prime</h3>
-                <p class="portfolio-item-paragraph">Маркетинг</p>
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">Проект Prime</h3>
+                <p class="portfolio-list__paragraph">Маркетинг</p>
               </div>
             </li>
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-5.jpg"
                   width="370"
                   alt="2 коробки на светлом фоне"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Voluptatibus, quo aperiam culpa provident, blanditiis aliquam
                   quasi tempora eveniet harum magni minima aliquid corporis
@@ -198,19 +199,19 @@
                 </p>
               </div>
 
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">Проект Boxes</h3>
-                <p class="portfolio-item-paragraph">Приложение</p>
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">Проект Boxes</h3>
+                <p class="portfolio-list__paragraph">Приложение</p>
               </div>
             </li>
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-6.jpg"
                   width="370"
                   alt="Макет веб-сайта в тёмных тонах"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Voluptatibus, quo aperiam culpa provident, blanditiis aliquam
                   quasi tempora eveniet harum magni minima aliquid corporis
@@ -218,19 +219,21 @@
                 </p>
               </div>
 
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">Inspiration has no Borders</h3>
-                <p class="portfolio-item-paragraph">Веб-сайт</p>
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">
+                  Inspiration has no Borders
+                </h3>
+                <p class="portfolio-list__paragraph">Веб-сайт</p>
               </div>
             </li>
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-7.jpg"
                   width="370"
                   alt="Дизайн издания Limited Edition"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Voluptatibus, quo aperiam culpa provident, blanditiis aliquam
                   quasi tempora eveniet harum magni minima aliquid corporis
@@ -238,19 +241,19 @@
                 </p>
               </div>
 
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">Издание Limited Edition</h3>
-                <p class="portfolio-item-paragraph">Дизайн</p>
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">Издание Limited Edition</h3>
+                <p class="portfolio-list__paragraph">Дизайн</p>
               </div>
             </li>
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-8.jpg"
                   width="370"
                   alt="Бирка проекта LAB"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Voluptatibus, quo aperiam culpa provident, blanditiis aliquam
                   quasi tempora eveniet harum magni minima aliquid corporis
@@ -258,19 +261,19 @@
                 </p>
               </div>
 
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">Проект LAB</h3>
-                <p class="portfolio-item-paragraph">Маркетинг</p>
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">Проект LAB</h3>
+                <p class="portfolio-list__paragraph">Маркетинг</p>
               </div>
             </li>
-            <li class="portfolio-item">
-              <div class="portfolio-image">
+            <li class="portfolio-list__item">
+              <div class="portfolio-list__image">
                 <img
                   src="./images/porfolio-9.jpg"
                   width="370"
                   alt="Макет бизнесс веб-сайта"
                 />
-                <p class="overlay">
+                <p class="portfolio-list__overlay">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Voluptatibus, quo aperiam culpa provident, blanditiis aliquam
                   quasi tempora eveniet harum magni minima aliquid corporis
@@ -278,9 +281,9 @@
                 </p>
               </div>
 
-              <div class="portfolio-item-box">
-                <h3 class="portfolio-item-title">Growing Business</h3>
-                <p class="portfolio-item-paragraph">Приложение</p>
+              <div class="portfolio-list__box">
+                <h3 class="portfolio-list__title">Growing Business</h3>
+                <p class="portfolio-list__paragraph">Приложение</p>
               </div>
             </li>
           </ul>

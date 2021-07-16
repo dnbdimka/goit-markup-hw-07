@@ -4,12 +4,11 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--brand-color);
-}
-.logo_light-bg {
-  color: #000000;
-}
-
-.logo_dark-bg {
-  color: #ffffff;
+  color: $brandColor;
+  &_light-bg {
+    color: #000000;
+  }
+  &_dark-bg {
+    color: #ffffff;
+  }
 }

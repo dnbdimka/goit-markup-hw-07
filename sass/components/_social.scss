@@ -1,0 +1,31 @@
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-list__icon {
+  width: 20px;
+  height: 20px;
+
+  fill: currentColor;
+}
+
+.social-list__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list__link_light {
+  color: #afb1b8;
+  transition: color var(--animation-time) var(--timing-function),
+    background-color var(--animation-time) var(--timing-function);
+}
+
+.social-list__link_light:hover,
+.social-list__link_light:focus {
+  background-color: var(--brand-color);
+  color: #fff;
+}
